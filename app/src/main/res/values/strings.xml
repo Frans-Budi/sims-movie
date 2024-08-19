@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Sims Movie</string>
+    <string name="app_name">SimsMovie</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_profile">Profile</string>
+    <string name="logo">Logo</string>
+    <string name="profile_title_appbar">Your Profile</string>
+    <string name="favorite_title_appbar">Your Favorite</string>
+    <string name="for_you">For You</string>
+    <string name="popular">Popular</string>
+    <string name="search_placeholder">Search in SimsMovie</string>
+    <string name="sub_title_detail">%1$s | %2$s</string>
+    <string name="watch_the_movie_now">Watch the Movie Now</string>
+    <string name="title_search">Search</string>
 </resources>

@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Sims Movie"
 include(":app")
- 
+include(":core")
+include(":search")
