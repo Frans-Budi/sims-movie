@@ -19,7 +19,6 @@ import com.fransbudikashira.simsmovie.ui.screen.detail.DetailScreen
 import com.fransbudikashira.simsmovie.ui.screen.favorite.FavoriteScreen
 import com.fransbudikashira.simsmovie.ui.screen.home.HomeScreen
 import com.fransbudikashira.simsmovie.ui.screen.profile.ProfileScreen
-import com.fransbudikashira.search.SearchScreen
 import com.fransbudikashira.simsmovie.ui.theme.SimsMovieTheme
 
 @Composable
@@ -35,7 +34,7 @@ fun SimsMovieApp(
                 Screen.Home.route -> {
                     HomeTopAppBar(
                         onClickSearchButton = {
-                            navController.navigate(Screen.Search.route)
+                            //
                         },
                         modifier = Modifier
                     )
@@ -86,13 +85,13 @@ fun SimsMovieApp(
                 ProfileScreen()
             }
             composable(Screen.Search.route) {
-                SearchScreen(
-                    onClick = { movie ->
-                        navController.navigate(
-                            Screen.Detail.createRoute(movie.imdbID)
-                        )
-                    }
-                )
+//                SearchScreen(
+//                    onClick = { movie ->
+//                        navController.navigate(
+//                            Screen.Detail.createRoute(movie.imdbID)
+//                        )
+//                    }
+//                )
             }
             composable(
                 route = Screen.Detail.route,

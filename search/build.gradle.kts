@@ -32,5 +32,7 @@ android {
 
 dependencies {
     implementation(project(":core"))
-    implementation(project(":app"))
+
+    //load online image
+    implementation(libs.coil.compose)
 }

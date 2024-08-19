@@ -1,4 +1,4 @@
-package com.fransbudikashira.simsmovie.ui.component
+package com.fransbudikashira.search.component
 
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme

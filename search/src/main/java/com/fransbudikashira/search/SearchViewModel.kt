@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.fransbudikashira.core.data.Resource
 import com.fransbudikashira.core.domain.model.Movie
 import com.fransbudikashira.core.domain.usecase.MovieUseCase
-import com.fransbudikashira.simsmovie.ui.common.UiState
+import com.fransbudikashira.search.common.UiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

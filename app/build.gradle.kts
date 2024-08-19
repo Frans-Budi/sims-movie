@@ -60,7 +60,6 @@ android {
 
 dependencies {
     implementation(project(":core"))
-    implementation(project(":search"))
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
     //navigation-compose

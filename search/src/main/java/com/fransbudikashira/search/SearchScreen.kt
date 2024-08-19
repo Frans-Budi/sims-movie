@@ -15,11 +15,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.fransbudikashira.core.domain.model.Movie
-import com.fransbudikashira.simsmovie.ui.common.UiState
-import com.fransbudikashira.simsmovie.ui.component.MovieItem
-import com.fransbudikashira.simsmovie.ui.component.MyDivider
-import com.fransbudikashira.simsmovie.ui.component.MySearchBar
-import com.fransbudikashira.simsmovie.ui.theme.SimsMovieTheme
+import com.fransbudikashira.search.common.UiState
+import com.fransbudikashira.search.component.MovieItem
+import com.fransbudikashira.search.component.MyDivider
+import com.fransbudikashira.search.component.MySearchBar
 
 @Composable
 fun SearchScreen(
@@ -125,12 +124,10 @@ fun SearchContent(
 @Preview
 @Composable
 fun SearchPreview() {
-    SimsMovieTheme {
-        SearchScreen(
-            onClick = {},
-            modifier = Modifier.background(
-                color = MaterialTheme.colorScheme.background
-            )
+    SearchScreen(
+        onClick = {},
+        modifier = Modifier.background(
+            color = MaterialTheme.colorScheme.background
         )
-    }
+    )
 }
